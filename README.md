@@ -1,4 +1,3 @@
-# mkdocs-custom-mod
 >[!Warning]
 >I use `--break-system-packages` because im not using venv
 ## 1 - Install mkdocs
