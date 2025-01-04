@@ -2,9 +2,7 @@ site_name: PVZ-Things
 theme:
   name: material
   features:
-    - navigation.tabs
-    - navigation.path
-    - navigation.tracking
+    - navigation.sections
     - toc.integrate
     - navigation.top
     - search.suggest
@@ -12,6 +10,7 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+    - navigation.tracking
   language: en
     
 # docs to modify the palette https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
