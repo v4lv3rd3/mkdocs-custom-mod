@@ -16,7 +16,7 @@ git clone https://github.com/v4lv3rd3/mkdocs-custom-mod.git
 ## 3 - Install some packages
 
 ```shell
-pip install mkdocs-material --break-system-packages
+pip install mkdocs-material mkdocs-callouts --break-system-packages
 pip install "mkdocs-material[imaging]" --break-system-packages
 sudo apt install libcairo2 libcairo2-dev -y
 ```
