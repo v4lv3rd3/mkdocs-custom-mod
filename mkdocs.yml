@@ -11,23 +11,28 @@ theme:
     - content.code.annotation
     - content.code.copy
     - navigation.tracking
+    - navigation.instant
+    - navigation.instant.progress
   language: en
-    
+
 # docs to modify the palette https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
 
   palette:
-    - scheme: slate 
+    - scheme: pvz
       toggle:
         icon: material/toggle-switch
-        name: Switch to light mode    
+        name: Switch to light mode
       primary: black
       accent: lime
     - scheme: default
       toggle:
-        icon: material/toggle-switch-off-outline 
+        icon: material/toggle-switch-off-outline
         name: Switch to dark mode
       primary: blue
-      accent: light blue 
+      accent: light blue
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   - search
