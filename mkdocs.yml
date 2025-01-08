@@ -1,4 +1,4 @@
-site_name: PVZ-Things
+site_name: [Site Name]
 theme:
   name: material
   features:
@@ -18,7 +18,7 @@ theme:
 # docs to modify the palette https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
 
   palette:
-    - scheme: pvz
+    - scheme: mod
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
