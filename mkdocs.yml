@@ -1,8 +1,7 @@
-site_name: [Site Name]
+site_name: pvz
 theme:
   name: material
   features:
-    - navigation.sections
     - navigation.top
     - search.suggest
     - search.highlight
