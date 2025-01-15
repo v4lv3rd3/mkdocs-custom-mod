@@ -40,3 +40,16 @@
     --md-shadow-z3:0 0.2rem 0.5rem #0006,0 0 0.05rem #00000059;
     color-scheme:dark
 }
+
+li label.md-nav__link {
+  background-color: #b0eb00;
+  color: black;
+}
+
+.md-nav__link[for]:focus,
+.md-nav__link[for]:hover,
+.md-nav__link[href]:focus,
+.md-nav__link[href]:hover {
+  color:black; /* Aquí poner el color cuando se señala */
+  cursor:pointer
+}
